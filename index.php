@@ -30,10 +30,13 @@
 <section id="top-head" class="block-scroll ptb-10">
 <div class="container">
 <div class="row">
-<div class="col-lg-3 col-md-10 col-sm-6">
+<div class="col-lg-3 col-md-6 col-sm-4 col-6">
 <h1><i class="fa fa-apple" aria-hidden="true"></i> Ifans Pro</h1>
 </div>
-<div class="col-lg-6 col-md-2 col-sm-6">
+<div class="col-sm-5 d-sm-block d-lg-none col-6 col-md-4">
+<a class="phone-mob" href="tel:+380669858424">+38 (066) 985 84 24</a>
+</div>
+<div class="col-lg-6 col-md-2 col-sm-3">
 <nav class="navbar navbar-expand-lg navbar-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -60,7 +63,7 @@
   </div>
 </nav>
 </div>
-<div class="col-lg-3 col-md-12 d-none768">
+<div class="col-lg-3 col-md-12 ">
 <div class="phone-num"><?php echo_data("text_field_1558854045007", "+38 "); ?><span><?php echo_data("text_field_1558854045009", "(066)"); ?></span><?php echo_data("text_field_1558854045008", " 985 84 24"); ?></div>
 </div>
 </div>
@@ -97,7 +100,7 @@
 <p class="old-cen"><span><?php echo_data("text_field_1558854045097", "Обычная цена"); ?></span><b><?php echo_data("text_field_1558854045098", "2200 грн."); ?></b></p>
 </div>
 
-<div class="col-md-3 w50">
+<div class="col-md-4 col-6 w50">
 <p class="new-cen"><span><?php echo_data("text_field_1558854045019", "Цена со кидкой"); ?></span><?php echo_data("text_field_1558854045018", "1499 грн"); ?></p>
 </div>
 </div>
