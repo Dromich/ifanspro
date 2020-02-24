@@ -1,0 +1,273 @@
+@media (max-width: 1366px) { 
+section#gall .nopadding img {
+    height: 250px;
+    width: auto;
+}
+}
+
+@media (max-width: 1024px) { 
+	.phone-num {
+    font-size: 22px;
+    padding-top: 11px;
+	}
+	img.logo {
+    padding-top: 11px;
+	}
+	section#top-banner h3, section#foot-banner h3 {
+    font-size: 20px;
+	}
+	section#top-banner .col-md-3.w50 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+	}
+	section#top-banner .offset-3 {
+    margin-left: 0;
+	}
+	section#about h2.titl, h2.titl {
+    font-size: 44px;
+	}
+	section#about img {
+    margin-top: 5px;
+	}
+	section#top-banner:after, section#foot-banner:after {
+    zoom: 0.8;
+}
+#card {
+    height: 530px;
+    width: 300px; 
+} 
+} 
+
+@media (max-width: 768px) {
+section#shop img {
+    width: inherit;
+}	
+	.offset-6, .offset-2 {
+    margin-left: 0;
+	}
+	.circ.pulses, .yvedw {
+	display:none;
+	}
+	.pr-item, .shop-item {
+    margin-bottom: 15px;
+	}
+	.servis-item {
+    margin-bottom: 30px;
+	}
+	img.logo {
+    width: 190px;
+	padding-top: 1px;
+	}
+	.navbar {
+    margin: -2px auto 0;
+    right: 0;
+    position: absolute;
+    z-index: 999;
+	}
+	.navbar-collapse {
+    position: fixed;
+    width: 100%;
+    background: #fffffffc;
+    top: 75px;
+    right: 0;
+    z-index: 999;
+    padding: 30px;
+    text-align: right;
+    height: auto;
+    box-shadow: -10px 0px 33px #0000000d;
+	}
+	.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+	}
+	a.close-menu-btn {
+    bottom: 19px;
+    width: 80%;
+    right: 33px;
+    padding: 15px 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #7b7b7b;
+    border-radius: 30px;
+    display: block;
+    margin: 35px auto 0;
+	}
+	section#top-banner .col-lg-6.col-md-12 img, section#foot-banner .col-lg-6.col-md-12 img {
+    width: 70% !important;
+	padding-bottom: 30px;
+	}
+	section#work .offset-1 {
+    margin-left: 0;
+	}
+	.video-text {
+    margin-bottom: 55px;
+	}
+	.d-none768 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: -11px;
+	}
+	.phone-num {
+    display: none;
+	}
+	.navbar-toggler {
+    background-color: white;
+    border: 1px solid white;
+	}
+	.navbar-light .navbar-toggler {
+    color: rgb(255, 158, 0);
+    border-color: rgb(255, 255, 255);
+	}
+	section#top-banner .container, section#foot-banner .container {
+    width: 65%;
+	}
+	section#top-banner h2.big, section#foot-banner h2.big {
+    padding-top: 0;
+    margin-top: -10px;
+	}
+	section#top-banner, section#foot-banner {
+    height: 570px;
+    overflow: hidden;
+	}
+	section#top-banner:after, section#foot-banner:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/img/banner-bg.png);
+    background-position: -162px 92%;
+    background-size: contain;
+    background-repeat: no-repeat;
+	}
+	.pr-item h3 {
+    font-size: 22px;
+	}
+	.offset-1 {
+    margin-left: 0;
+	}
+	section#about img {
+    display: none;
+	}
+	section#tech img {
+    width: 200px;
+	}
+}
+
+@media (max-width: 767px) { 
+section#shop img {
+    width: auto;
+}
+	section#top-head .col-sm-6, .col-md-6.w50 {
+    width: 50%;
+	}
+	section#tech img {
+    padding-bottom: 20px;
+	}
+	section#features .side-left p {
+    text-align: left;
+	}
+	.side-left h4 {
+    text-align: left;
+	}
+	section#features .side-left p span {
+    float: left;
+    margin-right: 15px;
+	margin-left: 0;
+	}
+	.log-in {
+	display:none;
+	}
+	.scrollup {
+    zoom: 0.6;
+	}
+	section#top-banner .col-lg-6.col-md-12 img, section#foot-banner .col-lg-6.col-md-12 img {
+    width: 65% !important;
+	}
+	.magnet-line h2 span {
+    width: 100%;
+    display: block;
+	}
+	section#top-banner h1 {
+    font-size: 50px;
+	}
+	section#top-banner h2 {
+    font-size: 25px;
+	}
+	.countdown ul.flip li span div div.inn {
+    font-size: 27px;
+    padding-top:4px;
+	}
+	a.desinger {
+    display: none;
+	}
+	section#top-banner h2.big span, section#foot-banner h2.big span {
+    font-size: 45px;
+	}
+	section#top-banner .container, section#foot-banner .container {
+    width: 100%;
+	}
+	section#top-banner h3, section#foot-banner h3 {
+    font-size: 23px;
+    line-height: 22px;
+	}
+	.countdown {zoom: inherit;}
+	.countdown ul.flip li span div div.inn {line-height: 30px}
+	p.old-cen span, p.new-cen span {
+    padding-top: 0px;
+    margin-top: -20px;
+	}
+	section#top-banner:after, section#foot-banner:after {
+    content: none;
+	}
+	section#about h2.titl, h2.titl {
+    font-size: 34px;
+    text-align: center;
+    line-height: 33px;
+	}
+	.only-mob {
+	display:block;
+    margin-top: -40px;
+	text-align:center
+	}
+	.only-mob img {
+    width: auto !important;
+	}
+	section#top-banner, section#foot-banner {
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 60px;
+	}
+	section#top-banner h2.big, section#foot-banner h2.big {
+    padding-top: 0;
+    margin-top: -30px;
+	}
+	section#free-button a.zak-btn {
+    width: 290px;
+	}
+	section#foot-banner p.old-cen, section#foot-banner p.new-cen {
+    margin-top: 35px;
+	}
+	section#foot-banner input {
+    width: 90%;
+	}
+	section#top-head h1 {
+    font-size: 26px;
+}
+.twork {
+    height: 240px;
+}
+section#gall .nopadding img {
+    height: auto;
+    width: 100%;
+}
+}
+
+@media (max-width: 375px) { 
+	section#tech p {
+    line-height: 22px;
+    padding-bottom: 20px;
+	}
+}

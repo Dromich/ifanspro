@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta content="ie=edge" http-equiv="x-ua-compatible">
+<title>Вход в панель управления</title>
+<link href="/admin/css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+<link href="/admin/img/fav.png" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+<div class="admin-login">
+<div class="admin-flex">
+<div class="admin-inner">
+<div class="admin-info-block login-form">
+<div class="admin-logo">
+<img src="/admin/img/logo.png">
+</div>
+<p>Добро пожаловать в панель управления!</p>
+<form method="post" action="/admin/login.php">
+  <div class="admin-stroke"><input type="password" name="password" placeholder="Введите пароль для входа" autocomplete="off"></div>
+  <div class="admin-stroke"><center><a class="admin-exit save-btn" style="float: none; padding-left: 50px; padding-right: 50px;" href="#" onclick="document.getElementsByTagName('form')[0].submit()">Вход</a></center></div>
+</form>
+<p class="admin-return"><a href="/index.php">Вернуться на сайт</a></p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html> 
